@@ -1,0 +1,102 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f9ff;
+    color: #333;
+}
+
+header {
+    background-color: #72C3FF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #FFD700;
+    border: none;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#temp {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#details p {
+    margin-bottom: 10px;
+}
+
+#forecast {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forecast-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.forecast-item img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    #weather {
+        width: 100%;
+    }
+
+    #forecast {
+        flex-direction: column;
+        align-items: center;
+    }
+}

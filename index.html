@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="app-name">Weather App</div>
+        <input type="text" id="location-input" placeholder="Enter city..." />
+        <button id="search-btn">Search</button>
+    </header>
+
+    <main>
+        <section id="weather">
+            <div id="current-weather">
+                <h1 id="temp">-</h1>
+                <p id="description">-</p>
+                <div id="details">
+                    <p>Humidity: <span id="humidity">-</span>%</p>
+                    <p>Wind Speed: <span id="wind-speed">-</span> km/h</p>
+                </div>
+            </div>
+            <div id="forecast">
+                <h2>5-Day Forecast</h2>
+                <div id="forecast-items"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Weather App. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
