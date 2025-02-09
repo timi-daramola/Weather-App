@@ -38,6 +38,11 @@ main {
     flex-direction: column;
 }
 
+#forecast-items {
+    display: flex;
+    margin-top: 10px;
+}
+
 #weather {
     display: flex;
     flex-direction: column;
